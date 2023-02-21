@@ -7,6 +7,7 @@
     --primary_color: #245D51;
     --secondary_color: #CB8461;
     --text_color: #fff;
+    --heading_color: #2C2C2C;
 }
 body {
     overflow-x: hidden;
@@ -96,4 +97,69 @@ body {
     background-color: var(--secondary_color);
     padding: 15px 25px;
     border-radius: 5px;
+}
+
+
+/* Media */
+.media {
+    width: 70%;
+    margin: 120px auto;
+}
+.media h1 {
+    margin: 10px auto;
+    font-size: 45px;
+    text-align: center;
+    color: var(--heading_color)
+}
+.media h1 span {
+    color: var(--secondary_color);
+}
+.media p {
+    width: 55%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.media .logo_handle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px auto;
+}
+
+
+.discount {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-image: url(../img/Discount.png);;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.discount .sec_left {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+.discount .sec_left h1 {
+    color: var(--heading_color);
+    font-size: 20px;
+}
+.discount .sec_left h1 span {
+    color: var(--secondary_color);
+}
+.discount .sec_left a {
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    border-radius:5px;
+    font-size:18px;
+    padding:10px 10px;
+    margin: 30px;
+}
+.discount img {
+    position: relative;
+    margin-top: -150px;
 }
