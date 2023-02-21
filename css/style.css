@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary_color: #245D51;
+    --secondary_color: #CB8461;
+    --text_color: #fff;
+}
+body {
+    overflow-x: hidden;
+}
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary_color);
+    border-top: 5px solid #fff;
+    overflow-y: hidden;
+}
+.hero .main_nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_nav .menu {
+    display: flex;
+    min-width: 60%;
+    justify-content: space-between;
+}
+
+.main_nav .menu_box li {
+    list-style: none;
+    display: inline-block;
+}
+.main_nav .menu_box.box1 li a {
+    opacity: 0.6;
+}
+.main_nav .menu_box li a {
+    display: block;
+    text-decoration: none;
+    color: var(--text_color);
+    font-size: 20px;
+    padding: 5px 10px;
+    text-transform: capitalize  ;
+}
+.main_nav .menu_box.box1 li:first-child a {
+    opacity: 1;
+}
+
+.main_nav .menu_box.box2 li:last-child a {
+    background-color: var(--secondary_color);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+
+.hero .row {
+    display: flex;
+    width: 90%;
+    /* align-items: flex-end; */
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.hero .row .content_box h1 {
+    color: var(--text_color);
+    font-size: 80px;
+    line-height: 100px;
+}
+.hero .row .content_box p {
+    color: var(--text_color);
+    font-size: 23px;
+    text-align: justify;
+    opacity: 0.6;
+    width: 70%;
+    line-height: 50px;
+}
+.hero .row .img {
+    display: block;
+}
+.action_mpre {
+    margin-top: 10px;;
+}
+.action_mpre a {
+    color: var(--text_color);
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+.action_mpre a:first-child {
+    background-color: var(--secondary_color);
+    padding: 15px 25px;
+    border-radius: 5px;
+}
