@@ -105,6 +105,7 @@ body {
 .media {
     width: 70%;
     margin: 120px auto;
+    padding-bottom: 50px;
 }
 .media h1 {
     margin: 10px auto;
@@ -138,6 +139,7 @@ body {
     background-image: url(../img/Discount.png);;
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 45%;
 }
 .discount .sec_left {
     /* position: relative; */
@@ -146,7 +148,7 @@ body {
 }
 .discount .sec_left h1 {
     color: var(--heading_color);
-    font-size: 20px;
+    font-size: 30px;
 }
 .discount .sec_left h1 span {
     color: var(--secondary_color);
@@ -159,10 +161,12 @@ body {
     font-size:18px;
     padding:10px 10px;
     margin: 30px;
+    width: 200px;
+    text-align: center;
 }
 .discount img {
     position: relative;
-    margin-top: -150px;
+    margin-top: -233px;
 }
 
 
@@ -178,7 +182,7 @@ body {
     width: 45%;
 }
 .left_profile h1 {
-    font-size: 30px;
+    font-size: 50px;
     color: var(--heading_color);
 }
 .left_profile h1 span {
