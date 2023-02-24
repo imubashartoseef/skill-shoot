@@ -139,12 +139,12 @@ body {
     background-image: url(../img/Discount.png);;
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 45%;
 }
 .discount .sec_left {
     /* position: relative; */
     display: flex;
     flex-direction: column;
+    width: 45%;
 }
 .discount .sec_left h1 {
     color: var(--heading_color);
